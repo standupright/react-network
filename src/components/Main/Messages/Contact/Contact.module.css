@@ -1,0 +1,13 @@
+.contact__link {
+    color: white;
+}
+
+.contact__link:hover {
+    color: yellow;
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+.contact__link:active {
+    opacity: 0.2;
+}
