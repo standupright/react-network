@@ -14,3 +14,12 @@
 .nav__link {
     color: white;
 }
+
+.nav__link:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.nav__link:active {
+    opacity: 0.2;
+}

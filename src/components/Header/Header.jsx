@@ -8,7 +8,7 @@ const Header = () => {
             <div className={HeaderStyles.header__logo}>
                 <img src="/img/logo.png" alt="Логотип сайта GG"/>
             </div>
-            <h1 className={HeaderStyles.header__title}> Портфолио молодого человека</h1>
+            <h1 className={HeaderStyles.header__title + ' visually-hidden'} >Сайт портфолио</h1>
           </div>
       </header>
     );
