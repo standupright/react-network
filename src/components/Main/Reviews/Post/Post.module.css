@@ -1,0 +1,22 @@
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.post__avatar {
+    border: 2px solid white;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+.post__message {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic;
+    
+}

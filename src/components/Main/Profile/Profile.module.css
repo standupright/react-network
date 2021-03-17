@@ -1,0 +1,36 @@
+.profile__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile__title { 
+    display: block;
+    padding: 0;
+    width: 30%;
+    border-bottom: 1px solid white;
+}
+
+.profile__avatar {
+    border: 4px solid white;
+}
+
+.profile__avatar:hover {
+    box-shadow: 3px 8px 22px 0px white;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+.profile__socials_list {
+    list-style: none;
+    padding: 0;
+    width: 69%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__statistic {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}

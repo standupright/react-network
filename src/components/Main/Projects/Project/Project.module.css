@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.project__img {
+    border: 2px solid white;
+}
+
+.project__description {
+    display: block;
+}

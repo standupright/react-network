@@ -1,0 +1,57 @@
+.reviews__posts {
+    margin: 0;
+    list-style: none;
+}
+
+.reviews__post {
+    margin-bottom: 20px;
+}
+
+
+.reviews__message {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__textarea {
+    margin-left: 3.5%;
+    width: 80%;
+    height: 120%;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: larger;
+}
+
+.reviews__mini_ttitle {
+    font-size: larger;
+    margin-left: 40px;
+    display: block;
+    width: 80%;
+    border-bottom: 80% solid white;
+}
+
+.reviews__button {
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 15%;
+    min-height: 15%;
+    margin-left: 40px;
+    margin-top: 20px;
+    outline: none;
+}
+
+.reviews__button:hover {
+    opacity: 0.5;
+}
+
+.reviews__button:active {
+    opacity: 0.2;
+}

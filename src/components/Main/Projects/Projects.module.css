@@ -1,0 +1,29 @@
+.projects__list {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.projects__item {
+    position: relative;
+}
+
+.projects__item::after {
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.05;
+}
+
+.projects__item:hover::after {
+    opacity: 0.2;
+    transition: 500ms;
+}
